@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+import { SharedModule  } from './shared/shared.module';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -14,7 +16,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

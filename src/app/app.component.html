@@ -1,9 +1,11 @@
 <div fxLayout="column" fxFlexFill class="container">
-  <div [fxFlex]="20" class="header">
-    header
-  </div>
 
-  <div [fxFlex]="65" class="content">
+  <app-header [fxFlex]="10"
+    [fxFlex.xs]="10"
+    class="header"
+    fxLayout="row"></app-header>
+
+  <div [fxFlex]="75" class="content">
     content
   </div>
 
