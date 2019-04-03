@@ -3,10 +3,11 @@
   <app-header [fxFlex]="10"
     [fxFlex.xs]="10"
     class="header"
-    fxLayout="row"></app-header>
+    fxLayout="row"></app-header>  
 
   <div [fxFlex]="75" class="content">
-    content
+    <router-outlet>
+    </router-outlet>    
   </div>
 
   <div [fxFlex]="15" class="footer">

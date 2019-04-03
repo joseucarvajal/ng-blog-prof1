@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { SharedModule  } from './shared/shared.module';
+import { ProductosModule } from './productos/productos.module';
 
 import { AppComponent } from './app.component';
 
@@ -17,7 +18,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     FlexLayoutModule,
-    SharedModule
+    SharedModule,
+    ProductosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
