@@ -21,7 +21,7 @@
               },
               "position": {
                 "x": 257,
-                "y": 260
+                "y": 256
               },
               "angle": 0,
               "id": "f96df04d-1485-447b-a07b-21cfe66a3994",
@@ -77,22 +77,6 @@
               }
             },
             {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 358,
-                "y": 68
-              },
-              "target": {
-                "x": 107,
-                "y": 372
-              },
-              "vertices": [],
-              "id": "9ed7f9fe-414e-4f0b-a72a-67c00dcb9f11",
-              "z": 3,
-              "attrs": {}
-            },
-            {
               "type": "tm.Flow",
               "smooth": true,
               "source": {
@@ -101,7 +85,16 @@
               "target": {
                 "id": "cbc7bbd4-cb75-4ab0-9371-a58e7fbe7515"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 342,
+                  "y": 261
+                },
+                {
+                  "x": 416,
+                  "y": 182
+                }
+              ],
               "id": "b0dd4b1d-9e42-4cee-b5f9-427657d55e6d",
               "labels": [
                 {
