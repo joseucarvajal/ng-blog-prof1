@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "Project 1",
+    "owner": "jose",
+    "description": "nuevo proyecto"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Vista-general",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "jose"
+  }
+}
