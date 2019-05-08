@@ -1,3 +1,19 @@
-<p>
-  crear works!
-</p>
+<div class="formulario">
+  <p>
+    <mat-form-field appearance="standard">
+      <mat-label>Ingrese el nombre</mat-label>
+      <input matInput placeholder="Placeholder" [(ngModel)]="producto.nombre">
+      <mat-icon matSuffix>event</mat-icon>
+      <mat-hint>Nombre del producto</mat-hint>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="standard">
+        <mat-label>Ingrese la descripción</mat-label>
+      <textarea matInput [(ngModel)]="producto.descripcion"> </textarea>
+    </mat-form-field>
+  </p>
+  <p>
+      <button mat-raised-button color="accent" (click)="guardar()">Guardar</button>
+  </p>  
+</div>

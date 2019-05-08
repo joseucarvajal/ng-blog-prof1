@@ -6,11 +6,14 @@ import { FooterComponent } from './footer/footer.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { RouterModule } from '@angular/router';
 
+import { MaterialModule } from '../material/material.module';
+
 @NgModule({
   declarations: [HeaderComponent, FooterComponent],
   imports: [
     CommonModule,
     FlexLayoutModule,
+    MaterialModule,
     RouterModule
   ],
   exports: [
